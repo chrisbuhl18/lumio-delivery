@@ -1,8 +1,16 @@
 import { NextResponse } from "next/server"
 import type { NextRequest } from "next/server"
 
+// Set this to true to disable password protection, false to enable it
+const DISABLE_PASSWORD_PROTECTION = true
+
 // This function can be marked `async` if using `await` inside
 export function middleware(request: NextRequest) {
+  // If password protection is disabled, skip all checks
+  if (DISABLE_PASSWORD_PROTECTION) {
+    return NextResponse.next()
+  }
+
   const { pathname } = request.nextUrl
 
   // Get authentication status from cookies
