@@ -7,27 +7,27 @@ import HeroBackground from "@/components/hero-background"
 export default function HeroSection() {
   return (
     <HeroBackground>
-      {/* Remove the hidden md:block class to make it visible on all screen sizes */}
+      {/* Remove hidden md:block to show on all devices */}
       <div className="container mx-auto px-4 pt-10 md:pt-20 pb-16 md:pb-32 relative z-10">
         <div className="max-w-4xl mx-auto text-center mb-8 md:mb-16">
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-heading font-bold leading-tight text-english-violet mb-4 md:mb-6">
-            Make your emails memorable.
+            Your new avatar in action.
           </h1>
           <p className="text-lg md:text-xl lg:text-2xl mb-6 md:mb-10 text-english-violet/80 max-w-2xl mx-auto">
-            Capture attention, boost your open rate, and stand out with animated email elements.
+            Take a look at your new animation and provide any feedback to the Lumio team.
           </p>
         </div>
 
         {/* Product Showcase - Responsive */}
         <div className="relative mt-4 md:mt-8">
-          {/* Change to flex-col on mobile and flex-row on md+ screens */}
-          <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-16">
+          {/* Stack vertically on mobile, side by side on desktop */}
+          <div className="flex flex-col md:flex-row justify-center items-center gap-12 md:gap-16">
             {/* Avatar mockup */}
             <Link
               href="/avatars"
               className="relative transform hover:scale-105 transition-transform duration-300 mb-12 md:mb-0"
             >
-              {/* Decorative elements - using responsive classes instead of media queries */}
+              {/* Decorative elements - responsive sizing */}
               <div
                 className="absolute -bottom-4 -right-4 w-40 h-40 md:w-52 md:h-52 bg-periwinkle rounded-full opacity-70"
                 style={{
@@ -59,7 +59,7 @@ export default function HeroSection() {
 
                 {/* Email content */}
                 <div className="p-4">
-                  {/* Email with animated avatar */}
+                  {/* Email with animated avatar - larger size */}
                   <div className="border-b pb-4 mb-4">
                     <div className="flex items-start">
                       <div className="mr-3 flex-shrink-0">
@@ -67,19 +67,19 @@ export default function HeroSection() {
                       </div>
                       <div className="flex-1">
                         <div className="flex justify-between mb-1">
-                          <div className="font-bold text-sm">Lumio Team</div>
+                          <div className="font-bold text-sm">PIN Plus</div>
                           <div className="text-xs text-gray-500">10:30 AM</div>
                         </div>
-                        <div className="text-sm font-medium mb-1">Make your email memorable!</div>
+                        <div className="text-sm font-medium mb-1">Trash Can Cleaning Event!</div>
                         <div className="text-xs text-gray-500 line-clamp-2">
-                          Thank you for your interest in our animated email solutions. We're excited to help you stand
+                          Thank you for your interest in our trash can cleaning event. We're excited to help you stand
                           out in crowded inboxes...
                         </div>
                       </div>
                     </div>
                   </div>
 
-                  {/* Regular email */}
+                  {/* Just one regular email - larger size */}
                   <div className="pb-4 mb-4 border-b">
                     <div className="flex items-start">
                       <div className="w-12 h-12 rounded-full bg-gray-200 mr-3 flex-shrink-0"></div>
@@ -96,7 +96,7 @@ export default function HeroSection() {
                     </div>
                   </div>
 
-                  {/* Third email preview */}
+                  {/* Third email preview that gets cropped off */}
                   <div className="pb-4 overflow-hidden" style={{ maxHeight: "60px" }}>
                     <div className="flex items-start">
                       <div className="w-12 h-12 rounded-full bg-gray-300 mr-3 flex-shrink-0"></div>
@@ -123,7 +123,7 @@ export default function HeroSection() {
 
             {/* Signature mockup */}
             <Link href="/signatures" className="relative transform hover:scale-105 transition-transform duration-300">
-              {/* Decorative elements - using responsive classes instead of media queries */}
+              {/* Decorative elements - responsive sizing */}
               <div
                 className="absolute -bottom-4 -left-4 w-40 h-40 md:w-52 md:h-52 bg-misty-rose rounded-full opacity-70"
                 style={{
@@ -162,7 +162,7 @@ export default function HeroSection() {
                     </div>
                     <div className="flex items-center space-x-2 mb-2">
                       <div className="text-xs font-medium text-gray-500">Subject:</div>
-                      <div className="text-xs font-medium">Project Proposal</div>
+                      <div className="text-xs font-medium">Trash Can Cleaning Event</div>
                     </div>
                   </div>
 
@@ -242,10 +242,10 @@ export default function HeroSection() {
 
                       <div className="flex-1">
                         <div className="font-bold text-english-violet text-xs">SARAH JOHNSON</div>
-                        <div className="text-xs text-gray-600">Marketing Director // Lumio</div>
+                        <div className="text-xs text-gray-600">Community Director // PIN Plus</div>
                         <div className="flex items-center text-xs text-gray-600 mt-1">
                           <Mail className="h-3 w-3 mr-1" />
-                          <span>sarah@lumio.com</span>
+                          <span>sarah@pinplus.com</span>
                         </div>
                         <div className="flex items-center text-xs text-gray-600">
                           <Phone className="h-3 w-3 mr-1" />
