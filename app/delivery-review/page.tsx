@@ -67,12 +67,12 @@ export default function HeroSection() {
                       </div>
                       <div className="flex-1">
                         <div className="flex justify-between mb-1">
-                          <div className="font-bold text-sm">PIN Plus</div>
+                          <div className="font-bold text-sm">LaunchX</div>
                           <div className="text-xs text-gray-500">10:30 AM</div>
                         </div>
-                        <div className="text-sm font-medium mb-1">Trash Can Cleaning Event!</div>
+                        <div className="text-sm font-medium mb-1">Igniting the Future of Business</div>
                         <div className="text-xs text-gray-500 line-clamp-2">
-                          Thank you for your interest in our trash can cleaning event. We're excited to help you stand
+                          Thank you for your interest in our Online BootCamp program. We're excited to help you stand
                           out in crowded inboxes...
                         </div>
                       </div>
@@ -162,7 +162,7 @@ export default function HeroSection() {
                     </div>
                     <div className="flex items-center space-x-2 mb-2">
                       <div className="text-xs font-medium text-gray-500">Subject:</div>
-                      <div className="text-xs font-medium">Trash Can Cleaning Event</div>
+                      <div className="text-xs font-medium">Igniting the Future of Business</div>
                     </div>
                   </div>
 
@@ -242,10 +242,10 @@ export default function HeroSection() {
 
                       <div className="flex-1">
                         <div className="font-bold text-english-violet text-xs">SARAH JOHNSON</div>
-                        <div className="text-xs text-gray-600">Community Director // PIN Plus</div>
+                        <div className="text-xs text-gray-600">Community Director // LaunchX</div>
                         <div className="flex items-center text-xs text-gray-600 mt-1">
                           <Mail className="h-3 w-3 mr-1" />
-                          <span>sarah@pinplus.com</span>
+                          <span>sarah@launchx.com</span>
                         </div>
                         <div className="flex items-center text-xs text-gray-600">
                           <Phone className="h-3 w-3 mr-1" />
