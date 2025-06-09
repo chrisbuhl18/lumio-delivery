@@ -18,7 +18,7 @@ export default function AnimatedAvatar({ size = "md", className }: AnimatedAvata
   return (
     <div className={cn("rounded-full overflow-hidden", sizeClasses[size], className)}>
       <Image
-        src="https://imagedelivery.net/nAvfNlDyCTDMbgRwQ09UKA/4587b400-40f1-49a1-e43f-d0af3e4aaa00/public"
+        src="https://imagedelivery.net/nAvfNlDyCTDMbgRwQ09UKA/661aacd3-2657-47fe-f13a-0380d2ed3600/public"
         alt="Animated brand avatar"
         width={128}
         height={128}

@@ -18,7 +18,7 @@ export default function SignatureHeadshot({ size = "md", className }: SignatureH
   return (
     <div className={cn("rounded-full overflow-hidden", sizeClasses[size], className)}>
       <Image
-        src="https://imagedelivery.net/nAvfNlDyCTDMbgRwQ09UKA/19dda266-133a-4e5b-4863-972c5b2b3d00/150x150px"
+        src="https://imagedelivery.net/nAvfNlDyCTDMbgRwQ09UKA/293292f0-42c0-4966-a1b6-a018da6b4c00/150x150px"
         alt="Signature headshot"
         width={128}
         height={128}
